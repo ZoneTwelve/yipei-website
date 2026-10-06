@@ -1,17 +1,18 @@
+/* WOFF2 files cover the current site copy; regenerate them when adding new glyphs. */
 @font-face {
-  font-display: swap;
+  font-display: block;
   font-family: "Josefin Slab";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/JosefinSlab-Regular.ttf") format("truetype");
+  src: url("/fonts/JosefinSlab-site.woff2") format("woff2");
 }
 
 @font-face {
-  font-display: swap;
+  font-display: block;
   font-family: "LXGW WenKai";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/LXGWWenKai-Regular.ttf") format("truetype");
+  src: url("/fonts/LXGWWenKai-site.woff2") format("woff2");
 }
 
 :root {
